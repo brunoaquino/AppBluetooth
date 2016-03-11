@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BluetoothCP.ControleBluetooth" Title="Conector Bluetooth">
+	<ContentPage.Content>
+		<StackLayout Padding="25" BackgroundColor="White">
+			<Label Text="Mac Bluetooth:" TextColor="Black"/>
+			<Entry x:Name="mecBluetooth" IsEnabled="false" TextColor="Black"/>
+
+			<Button x:Name="btnAcende" Text="Acende" Clicked="acendeLuz" FontSize="12"/>
+
+			<Button x:Name="btnApaga" Text="Apaga" Clicked="apagaLuz" FontSize="12"/>
+
+			<Label Text="Status:" TextColor="Black"/>
+			<Label x:Name="lblStatus" Text="Desativado" TextColor="Black"/>
+			<Label x:Name="lblRecebido" TextColor="Black" XAlign ="50"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

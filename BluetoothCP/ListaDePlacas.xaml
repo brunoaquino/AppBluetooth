@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BluetoothCP.ListaDePlacas" Title="Lista de Conectores">
+	<ContentPage.Content>
+		<StackLayout Padding="10" BackgroundColor="White" >
+			<ListView ItemsSource="{Binding Conexoes}" ItemTapped="AcaoItem">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                            	<StackLayout>
+                            		<StackLayout Orientation="Horizontal">
+		                            	<Label Text="Carro: " FontSize="14" TextColor="Black"/>
+										<Label Text="{Binding Id}" FontSize="14" TextColor="Black"/>
+		                            </StackLayout>
+		                            <StackLayout Orientation="Horizontal" >
+		                            	<Label Text="Placa: " FontSize="14" TextColor="Black"/>
+										<Label Text="{Binding Placa}" FontSize="14" TextColor="Black"/>
+		                            </StackLayout>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

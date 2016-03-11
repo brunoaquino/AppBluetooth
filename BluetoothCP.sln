@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothCP", "BluetoothCP\BluetoothCP.csproj", "{8923F2BD-D87A-46D1-98A7-EF7AA0667348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothCP.Droid", "Droid\BluetoothCP.Droid.csproj", "{AC22B77D-FC66-4065-8FE4-2D585B125440}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8923F2BD-D87A-46D1-98A7-EF7AA0667348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8923F2BD-D87A-46D1-98A7-EF7AA0667348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8923F2BD-D87A-46D1-98A7-EF7AA0667348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8923F2BD-D87A-46D1-98A7-EF7AA0667348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC22B77D-FC66-4065-8FE4-2D585B125440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC22B77D-FC66-4065-8FE4-2D585B125440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC22B77D-FC66-4065-8FE4-2D585B125440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC22B77D-FC66-4065-8FE4-2D585B125440}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
